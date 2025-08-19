@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="EbaySuite">
+    <test name="EbayLoginTest">
+        <parameter name="username" value="manasaaduvala123@gmail.com"/>
+        <parameter name="password" value="@admin123"/>
+        <classes>
+            <class name="TestNG_package.DummyLogin"/>
+        </classes>
+    </test>
+</suite>
+
+
+
+
+
+
